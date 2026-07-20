@@ -1,0 +1,103 @@
+﻿/* Basic page style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f2fe, #fef3c7);
+  color: #1f2937;
+}
+
+/* Center layout */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Main card style */
+.card {
+  width: min(100%, 620px);
+  padding: 32px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 18px 40px rgba(31, 41, 55, 0.14);
+  text-align: center;
+}
+
+/* Small label above title */
+.tagline {
+  margin: 0 0 8px;
+  color: #0284c7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Main title */
+h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 34px;
+}
+
+/* Short description */
+.description {
+  margin: 16px auto;
+  max-width: 500px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+/* Identity box */
+.identity {
+  margin: 20px auto;
+  padding: 12px;
+  border-radius: 14px;
+  background-color: #f8fafc;
+}
+
+.identity p {
+  margin: 6px 0;
+}
+
+/* Button wrapper */
+.button-group {
+  margin: 24px 0;
+}
+
+/* Rounded modern beginner button */
+button {
+  margin: 8px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  background-color: #0284c7;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0369a1;
+}
+
+/* Result display */
+.result-box {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 16px;
+  background-color: #f0f9ff;
+}
+
+.result-box h2 {
+  margin-top: 0;
+}
+
+#output {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0f766e;
+  word-break: break-word;
+}

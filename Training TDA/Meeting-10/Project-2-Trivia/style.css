@@ -1,0 +1,64 @@
+﻿/* Mengatur tampilan dasar halaman */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef6ff;
+  color: #1f2937;
+}
+
+/* Membuat konten mudah dibaca di tengah layar */
+.container {
+  width: min(90%, 780px);
+  margin: 40px auto;
+}
+
+/* Mengatur warna judul */
+h1 {
+  color: #0f766e;
+  margin-bottom: 8px;
+}
+
+/* Mengatur tombol agar terlihat sederhana dan jelas */
+button {
+  padding: 10px 16px;
+  margin: 6px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #0f766e;
+  color: white;
+  cursor: pointer;
+}
+
+/* Efek kecil saat tombol disentuh mouse */
+button:hover {
+  background-color: #115e59;
+}
+
+/* Mengatur card output */
+.card {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(31, 41, 55, 0.08);
+}
+
+/* Mengatur area hasil JavaScript */
+#output {
+  line-height: 1.7;
+}
+
+/* Mengatur susunan tombol */
+.button-group {
+  margin-top: 18px;
+}
+
+/* Mengatur label invitation */
+.label {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 18px;
+  border: 2px dashed #0f766e;
+  border-radius: 10px;
+  background-color: #f8fffb;
+}

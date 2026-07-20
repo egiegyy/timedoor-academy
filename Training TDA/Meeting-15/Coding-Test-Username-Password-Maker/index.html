@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic HTML setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Test - Username & Password Maker by Regina Alya Analanai</title>
+
+  <!-- Connect external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main content wrapper -->
+  <main class="container">
+    <section class="card">
+      <p class="tagline">Final Coding Test</p>
+      <h1>Username & Password Maker</h1>
+      <p class="description">
+        Simple JavaScript project to generate a username or password using random words, numbers, and symbols.
+      </p>
+
+      <!-- Student identity -->
+      <div class="identity">
+        <p><strong>By:</strong> Regina Alya Analanai</p>
+        <p><strong>Age:</strong> 21 years old</p>
+      </div>
+
+      <!-- Buttons call JavaScript function directly -->
+      <div class="button-group">
+        <button onclick="generate(1)">Generate Username</button>
+        <button onclick="generate(2)">Generate Password</button>
+      </div>
+
+      <!-- Output area updated by JavaScript -->
+      <div class="result-box">
+        <h2>Result</h2>
+        <p id="output">Click a button or answer the prompt to generate something.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Connect external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

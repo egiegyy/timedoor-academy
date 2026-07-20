@@ -1,0 +1,33 @@
+﻿/* Mengatur tampilan dasar halaman */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+/* Membuat konten berada di tengah dan mudah dibaca */
+.container {
+  width: min(90%, 760px);
+  margin: 40px auto;
+}
+
+/* Mengatur judul utama */
+h1 {
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+/* Mengatur kartu output */
+.card {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(31, 41, 55, 0.08);
+}
+
+/* Mengatur area hasil dari JavaScript */
+#output {
+  line-height: 1.7;
+}

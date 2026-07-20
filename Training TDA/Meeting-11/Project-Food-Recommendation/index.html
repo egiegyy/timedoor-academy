@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Recommendation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Food Recommendation</h1>
+      <p>Choose your food mood and get a random recommendation.</p>
+
+      <div class="buttons">
+        <button onclick="recommendFood('Spicy')">Spicy</button>
+        <button onclick="recommendFood('Sweet')">Sweet</button>
+        <button onclick="recommendFood('Healthy')">Healthy</button>
+        <button onclick="recommendFood('Fast Food')">Fast Food</button>
+      </div>
+
+      <div class="result">
+        <h2>Result</h2>
+        <p id="output">Your food recommendation will show here.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
